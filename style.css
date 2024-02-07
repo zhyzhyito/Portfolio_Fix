@@ -242,8 +242,8 @@ section{
 }
 .about-pic{
     border-radius: 2rem;
-    width: 210px;
-    object-fit: contain;
+    width: 150px;
+    object-fit: cover;
 }
 .arrow{
     position: absolute;
