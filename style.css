@@ -23,6 +23,7 @@ a, .btn{
 /*For Nav */
 nav, .nav-links{
     display: flex;
+    
 }
 nav{
     justify-content: space-around;
@@ -33,9 +34,10 @@ nav{
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;   
+    
 }
 a{
-    color: black;
+    color: #f4f4f4;
     text-decoration: none;
     text-decoration-color: #f4f4f4;
 }
@@ -225,7 +227,20 @@ section{
 .btn-container{
     gap: 1rem;
 }
-
+.btn-color-download{
+    border: #ca9263 0.1rem solid;
+    color: #f4f4f4;
+}
+.btn-color-download:hover{
+    cursor: pointer;
+}
+.btn-color-download:hover{
+    background: #ca9263;
+    color: #f4f4f4;
+}
+.btn-color-download{
+    background: none;
+}
 /*About Section*/
 
 #about{
@@ -329,7 +344,9 @@ article .icon{
     color: black;
     border-color: rgb(163, 163, 163);
 }
-
+.btn-color-2{
+    color: #113E67;
+}
 /*Contact*/
 
 #contact{
@@ -348,13 +365,13 @@ article .icon{
     margin: 2rem auto;
     padding: 0.5rem;
 }
-
 .contact-info-container{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.54rem;
     margin: 1rem;
+    color: #f4f4f4;
 }
 .contact-info-container p{
     font-size: large;
@@ -371,7 +388,9 @@ article .icon{
 footer{
     height: 26vh;
     margin: 0 1rem;
+    
 }
 footer p{
     text-align: center;
+    color: #f4f4f4;
 }
