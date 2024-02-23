@@ -7,13 +7,13 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(166, 197, 211);
+    background-color: #113E67;
 }
 html{
     scroll-behavior: smooth;
 }
 p{
-    color: rgb(85, 85, 85);
+    color: #ca9263;
 }
 /*Transition*/
 a, .btn{
@@ -37,16 +37,17 @@ nav{
 a{
     color: black;
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: #f4f4f4;
 }
 a:hover{
-    color: grey;
+    color: #f4f4f4;
     text-decoration: underline;
     text-underline-offset: 1rem ;
-    text-decoration-color: rgb(181,181,181);
+    text-decoration-color: #f4f4f4;
 }
 .logo{
     font-size: 2rem;
+    color: #f4f4f4;
 }
 .logo:hover{
     cursor: default;
@@ -72,7 +73,7 @@ a:hover{
 .hamburger-icon span{
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: #f4f4f4;
     transform: all 0.3ms ease-in-out;
 
 }
@@ -81,7 +82,7 @@ a:hover{
     position: absolute;
     top: 100%;
     right: 0%;
-    background-color: white;
+    background-color: transparent;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -93,7 +94,7 @@ a:hover{
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: black;
+    color: #f4f4f4;
     text-decoration: none;
     transition: all 0.3ms ease-in-out;
 }
@@ -169,6 +170,7 @@ section{
 .title{
     font-size: 2rem;
     text-align: center;
+    color: #f4f4f4;
 }
 #socials-container{
     display: flex;
@@ -198,7 +200,8 @@ section{
 }
 .btn-color-1, 
 .btn-color-2{
-    border: rgb(52, 53, 53) 0.1rem solid;
+    border: #ca9263 0.1rem solid;
+    color: #f4f4f4;
 }
 .btn-color-1:hover, 
 .btn-color-2:hover{
@@ -206,11 +209,12 @@ section{
 }
 .btn-color-1, 
 .btn-color-2:hover{
-    background: rgb(53, 53, 53);
-    color: white;
+    background: #ca9263;
+    color: #f4f4f4;
 }
 .btn-color-1:hover{
-    background: rgb(0, 0, 0);
+    background: #f4f4f4;
+    color: #ca9263;
 }
 .btn-color-2{
     background: none;
@@ -253,6 +257,7 @@ section{
 .details-container{
     padding: 1.5rem;
     flex: 1;
+    color: #113E67;
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
@@ -274,7 +279,7 @@ section{
     position: relative;
 }
 .experience-sub-title{
-    color: rgb(85, 85, 85);
+    color: #113E67;
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
