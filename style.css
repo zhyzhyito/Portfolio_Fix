@@ -14,6 +14,7 @@ html{
 }
 p{
     color: #ca9263;
+    text-align: center;
 }
 /*Transition*/
 a, .btn{
@@ -215,7 +216,7 @@ section{
     color: #f4f4f4;
 }
 .btn-color-1:hover{
-    background: #f4f4f4;
+    background: #113E67;
     color: #ca9263;
 }
 .btn-color-2{
@@ -229,7 +230,7 @@ section{
 }
 .btn-color-download{
     border: #ca9263 0.1rem solid;
-    color: #f4f4f4;
+    color: #ca9263;
 }
 .btn-color-download:hover{
     cursor: pointer;
@@ -260,7 +261,7 @@ section{
     display: flex;
 }
 .about-pic{
-    border-radius: 2rem;
+    border-radius: 10rem;
     width: 210px;
     object-fit: contain;
 }
@@ -334,7 +335,7 @@ article .icon{
 .project-img{
     border-radius: 2rem;
     width: 90%;
-    height: 90%;
+    height: 900%;
 }
 .project-title{
     margin: 1rem;
