@@ -43,14 +43,15 @@ a{
     text-decoration-color: #f4f4f4;
 }
 a:hover{
-    color: #f4f4f4;
+    color: #ca9263;
     text-decoration: underline;
     text-underline-offset: 1rem ;
-    text-decoration-color: #f4f4f4;
+    text-decoration-color: #c9b3a2;
 }
 .logo{
     font-size: 2rem;
     color: #f4f4f4;
+    margin-left: 2rem;
 }
 .logo:hover{
     cursor: default;
@@ -72,6 +73,9 @@ a:hover{
     width: 30px;
     cursor: pointer;
 }
+.hamburger-icon::after{
+    transition: 0.7s;
+}
 
 .hamburger-icon span{
     width: 100%;
@@ -85,7 +89,6 @@ a:hover{
     position: absolute;
     top: 100%;
     right: 0%;
-    background-color: transparent;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -95,11 +98,17 @@ a:hover{
 .menu-links a{
     display: block;
     padding: 10px;
-    text-align: center;
+    text-align: start;
     font-size: 1.5rem;
-    color: #f4f4f4;
+    color: #113E67;
     text-decoration: none;
     transition: all 0.3ms ease-in-out;
+    background-color: #ca9263;
+    border-radius: 0.6rem;
+}
+.menu-links a:hover{
+    background-color: #f4f4f4;
+    transition: 0.5s;
 }
 .menu-links li{
     list-style: none;
@@ -153,6 +162,8 @@ section{
 }
 .zhy-image{
     border-radius: 20px;
+    width: 600px;
+    height: auto;
 }
 
 .section__text{
@@ -178,7 +189,7 @@ section{
 #socials-container{
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
     gap: 1rem;
 }
 /*Icons*/
@@ -248,7 +259,7 @@ section{
     position: relative;
 }
 .about-containers{
-    gap: 2rem;
+    gap: 1rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
@@ -304,6 +315,7 @@ section{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 10rem;
 }
 .article-container{
     display: flex;
@@ -315,7 +327,7 @@ section{
 }
 article{
     display: flex;
-    width: 10rem;
+    width: 12rem;
     justify-content: space-around;
     gap: 0.5rem;
 }
@@ -334,8 +346,8 @@ article .icon{
 }
 .project-img{
     border-radius: 2rem;
-    width: 90%;
-    height: 900%;
+    width: 80%;
+    height: 100%;
 }
 .project-title{
     margin: 1rem;

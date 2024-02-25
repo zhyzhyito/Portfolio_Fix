@@ -71,6 +71,13 @@
         margin-top: 0;
     }
 }
+@media screen and (max-width: 777px){
+    .project-img{
+        width:30vh;
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 600px){
     #contact, footer{
         height: 40vh;
@@ -110,5 +117,14 @@
         gap: 0.5rem;
         text-align: center;
     }
+    .article{
+        justify-content: start;
+    }
     
+}
+
+@media screen and (max-width: 387px){
+    .contact-info-upper-container{
+        margin-left: -1rem;
+    }
 }
