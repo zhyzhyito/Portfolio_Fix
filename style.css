@@ -318,18 +318,18 @@ section{
     margin-top: 10rem;
 }
 .article-container{
-    display: flex;
+    display:flex;
     text-align: inherit;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 2rem;
     justify-content: space-around;
 }
 article{
     display: flex;
     width: 12rem;
-    justify-content: space-around;
-    gap: 0.5rem;
+    /*justify-content: space-around;*/
+    gap: 2.5rem;
 }
 article .icon{
     cursor: default;
